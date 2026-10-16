@@ -1,0 +1,16 @@
+[project]
+name = "datafactor-ready-etl"
+version = "0.1.0"
+description = "Compact Python ETL + ML sample project prepared for quality assessment and licensing review."
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "B"]
+
+[tool.mypy]
+python_version = 3.11
+ignore_missing_imports = true
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
